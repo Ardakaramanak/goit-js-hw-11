@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.css"
+    />
+    <script type="module" crossorigin src="/goit-js-hw-11/assets/index-B_F4R5zp.js"></script>
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-B4BidJOx.css">
+  </head>
+  <body>
+    <form class="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <span class="loader is-hidden"></span>
+
+    <ul class="gallery"></ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/simplelightbox@2.14.2/dist/simple-lightbox.min.js"></script>
+  </body>
+</html>
