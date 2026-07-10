@@ -2,6 +2,9 @@ import axios from 'axios';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
+
 import './css/styles.css';
 
 const API_KEY = '56630510-c41cdbd1314e2ce80756b5e7e';
